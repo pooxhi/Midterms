@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <style>
+                body{
+                    background-color: burlywood;
+                }
+                input, select, textarea{
+                    border-radius: 10px;
+                }
+            </style>
+        </head>
+        <body>
+            <form action="http://127.0.0.1:3000/post_method" method="POST">
+                First Name: <input type="text" name="first_name"> <br>
+                <br>
+                Last Name: <input type="text" name="last_name"> <br>
+                <br>
+                Age: <input type="number" name="age"><br>
+                <br>
+                Hobbies <select name="hobby" id="hobby">
+                    <option value="basketball">Basketball</option>
+                    <option value="football">Football</option>
+                    <option value="volleyball">Volleyball</option>
+                    <option value="baseball">Baseball</option>
+                    <option value="tennis">Tennis</option>
+                    <option value="esports">E-Sports</option>
+                    <option value="others">Others</option>
+                </select>
+                <br>
+                Favorite number sa electric fan 
+                <br>
+                <input type="radio" id="ef" name="fav_number" value="ef">
+                <label for="ef">1</label><br>
+                <input type="radio" id="ef" name="fav_number" value="ef">
+                <label for="ef">2</label><br>
+                <input type="radio" id="ef" name="fav_number" value="ef">
+                <label for="ef">3</label><br>
+                <input type="radio" id="ef" name="fav_number" value="ef">
+                <label for="ef">4</label><br>
+                <br>
+                In five years where do you see yourself? 
+                <br><textarea name="five" id="five" cols="30" rows="10">Chat Here...</textarea>
+                <br><input type="submit" value="Submit">
+            </form>
+        </body>
+ </html>
